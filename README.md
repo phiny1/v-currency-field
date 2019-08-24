@@ -83,7 +83,7 @@ And all vuetify properties
 | flat                  | false    | Boolean   |                          |
 | fullWidth             | false    | Boolean   |                          |
 | label                 | false    | String    |                          |
-| outline               | false    | Boolean   |                          |
+| outlined              | false    | Boolean   |                          |
 | prependInnerIcon      | false    | String    |                          |
 | prependInnerIconCb    | false    | Function  | Working but deprecated   |
 | @click:prepend-inner  | false    | Function  | Not Working              |
