@@ -73,13 +73,13 @@ And all vuetify properties
 | appendOuterIconCb     | false    | Function  | Working but deprecated   |
 | @click:append-outer   | false    | Function  | Not Working              |
 | autofocus             | false    | Boolean   |                          |
-| box                   | false    | Boolean   |                          |
 | browserAutocomplete   | false    | String    | Not Tested               |
 | clearable             | false    | Boolean   | Not Working Event        |
 | clearIcon             | false    | String    |                          |
 | clearIconCb           | false    | Number    | Working but deprecated   |
 | @click:clear          | false    | Number    | Not Working              |
 | color                 | false    | String    |                          |
+| filled                | false    | Boolean   |                          |
 | flat                  | false    | Boolean   |                          |
 | fullWidth             | false    | Boolean   |                          |
 | label                 | false    | String    |                          |
