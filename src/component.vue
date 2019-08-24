@@ -55,7 +55,6 @@ export default {
     appendOuterIcon: String,
     appendOuterIconCb: Function,
     autofocus: Boolean,
-    box: Boolean,
     browserAutocomplete: String,
     clearable: Boolean,
     clearIcon: {
@@ -68,6 +67,7 @@ export default {
       default: 'primary'
     },
     counter: [Boolean, Number, String],
+    filled: Boolean,
     flat: Boolean,
     fullWidth: Boolean,
     label: String,
