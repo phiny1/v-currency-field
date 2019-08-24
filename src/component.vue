@@ -71,7 +71,7 @@ export default {
     flat: Boolean,
     fullWidth: Boolean,
     label: String,
-    outline: Boolean,
+    outlined: Boolean,
     placeholder: String,
     prependInnerIcon: String,
     prependInnerIconCb: Function,
