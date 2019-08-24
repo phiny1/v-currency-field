@@ -1,7 +1,7 @@
 {
-  "name": "v-currency-field",
-  "version": "1.0.6",
-  "description": "Vue currency input/directive mask",
+  "name": "@yitzhakandrade/v-currency-field",
+  "version": "2.0.0",
+  "description": "Vue currency input/directive mask for Vuetify v2",
   "main": "dist/v-currency-field.js",
   "scripts": {
     "size": "size-limit",
@@ -16,10 +16,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/phiny1/v-currency-field.git"
+    "url": "git+https://github.com/yitzhakandrade/v-currency-field.git"
   },
   "keywords": [
     "vue",
+    "vuetify",
     "input",
     "mask",
     "directive",
@@ -35,7 +36,7 @@
       "limit": "1.6 KB"
     }
   ],
-  "author": "Marcos Neves <marcos.neves@gmail.com> (https://vuejs-tips.github.io/) with adpations for vuetify by Philipe Augusto <phiny1@gmail.com>",
+  "author": "Marcos Neves <marcos.neves@gmail.com> (https://vuejs-tips.github.io/)",
   "license": "MIT",
   "devDependencies": {
     "babel-jest": "^21.2.0",
@@ -52,5 +53,13 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.26.0"
+  },
+  "bugs": {
+    "url": "https://github.com/yitzhakandrade/v-currency-field/issues"
+  },
+  "homepage": "https://github.com/yitzhakandrade/v-currency-field#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
   }
 }

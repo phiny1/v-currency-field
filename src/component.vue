@@ -5,7 +5,7 @@
          :value="formattedValue"
          v-bind="$props"
          type="tel"
-         @change="change"
+         @input="change"
          v-currency="{precision, decimal, thousands}"/>
 </template>
 
@@ -70,6 +70,7 @@ export default {
     filled: Boolean,
     flat: Boolean,
     fullWidth: Boolean,
+    hideDetails: Boolean,
     label: String,
     outlined: Boolean,
     placeholder: String,
