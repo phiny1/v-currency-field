@@ -1,8 +1,10 @@
-# Currency Mask for Vuetify
+# Currency Mask for Vuetify v2
+
+This is a fork from https://github.com/phiny1/v-currency-field adapted for Vuetify v2.
 
 ## Features
 
-- All features from v-money as v-text-field of vuetify.
+- All features from v-money as v-text-field of vuetify v2.
 
 ## Usage
 
@@ -103,5 +105,6 @@ And all vuetify properties
 
 ### References
 
+- https://github.com/phiny1/v-currency-field
 - https://github.com/64robots/v-money
 - https://vuetifyjs.com/pt-BR/components/text-fields
