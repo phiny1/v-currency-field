@@ -7,7 +7,7 @@
          type="tel"
          @blur="newblur"
          @input="change"
-         v-currency="{precision, decimal, thousands}"/>
+         v-currency="{precision, decimal, thousands, allowBlank}"/>
 </template>
 
 <style>
@@ -52,6 +52,10 @@ export default {
     suffix: {
       type: String,
       default: () => defaults.suffix
+    },    
+    allowBlank: {
+      type: Boolean,
+      default: () => defaults.allowBlank
     },
     appendOuterIcon: String,
     appendOuterIconCb: Function,
